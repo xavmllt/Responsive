@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#dwwm{
+    background-image: url('beach.jpg');
+    height: 100vh;
+    background-position: center; /* centrer l'image */
+    background-size: cover; /* couvre l'integralité de la page */
+    display: flex; /*rend les items flexibles */
+    text-align: center;
+    justify-content: center; /*place le texte au milieu de l'élément */
+    flex-direction: column;
+    align-items: center; /* place le texte au milieu de l'axe des x */
+}
+
+#dwwm h1{
+    font-size: 50px;
+}
+
+#dwwm p{
+    font-size: 20px;
+}
+
+#dwwm .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: 1px solid #926239;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* au survol du button, son background change de couleur */
+#dwwm .button:hover{
+    background: #926239;
+    color: #fff;
+}
