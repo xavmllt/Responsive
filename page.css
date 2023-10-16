@@ -1,0 +1,110 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#formulaireConteneur{
+    width: 45%;
+    /* border: 1px solid black; */
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    padding: 5px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+.col-md-6{
+    width: 40%
+}
+
+form{
+    justify-content: center;
+}
+
+.btn-primary{
+    /* margin-left: 45%; */
+    margin-top: 30px;
+}
+
+
+
+footer{
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-top: 1px dashed #95cbda;
+    background: #7471ba;
+    color: #4b4a4a;
+}
+
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+
+
+/* contact */
+.footer-contact h3, .footer-services h3, .footer-horaire h3, .footer-medias h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p{
+    padding: 5px;
+}
+
+
+/* services */
+.liste-services, .liste-horaires, .liste-medias{
+    list-style-type: none;
+}
+
+.liste-services li{
+    padding: 2px 0;
+}
+
+.liste-services a{
+    text-decoration: none;
+    color: #333;
+}
+
+.liste-services a:hover{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+/* medias */
+.liste-medias{
+    position: relative;
+    right: 10px;
+}
+
+.liste-medias img{
+    width: 20px;
+    margin: 10px 10px;
+}
+
+.liste-medias a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}

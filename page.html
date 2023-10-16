@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="page.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+    <script src="page.js" defer></script>
+    <title>Page</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Création de sites</a></li>
+                  <li><a class="dropdown-item" href="#">Graphisme</a></li>
+                  <li><a class="dropdown-item" href="#">Shéma</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1>BIENVENUE CHEZ LES DWWM</h1>
+</header>
+
+<body>
+    <div id="formulaireConteneur">
+        <h2>Contactez-nous !</h2>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="nom">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Prénom</label>
+          <input type="text" class="form-control" id="prenom">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Mail</label>
+            <input type="mail" class="form-control" id="mail">
+          </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Téléphone</label>
+            <input type="tel" class="form-control" id="telephone">
+        </div>
+        <div class="col-md-6">
+            <textarea class="form-control" name="" id="textArea" cols="30" rows="10" placeholder="Votre message"></textarea>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">ENVOYER</button>
+        </div>
+      </form>
+    </div>
+</body>
+
+<footer>
+    <div class="contenu-footer">
+        <div class="bloc footer-contact">
+            <h3>Restons en contact</h3>
+            <p>10-10-10-10-10</p>
+            <p>supportclient@contact.com</p>
+            <p>10, rue de la mandarine 45100 Olivet</p>
+        </div>
+        <div class="bloc footer-horaire">
+            <h3>Nos horraires</h3>
+            <ul class="liste-horaires">
+                <li>✅ &ensp;Lun 10h  -  19h</li>
+                <li>✅ &ensp;Mar 10h  -  19h</li>
+                <li>✅ &ensp;Mer 10h  -  19h</li>
+                <li>✅ &ensp;Jeu 10h  -  19h</li>
+                <li>✅ &ensp;Ven 10h  -  19h</li>
+                <li>❌ &ensp;Sam fermé</li>
+                <li>❌ &ensp;Dim fermé</li>
+            </ul>
+        </div>
+        <div class="bloc footer-medias">
+            <h3>Nos réseaux</h3>
+            <ul class="liste-medias">
+                <li><a href="#"><img src="facebook.png" alt="facebook">&ensp; Facebook</a></li>
+                <li><a href="#"><img src="instagram_2111463.png" alt="instagram">&ensp; Instagram</a></li>
+                <li><a href="#"><img src="twitter_4494477.png" alt="twitter">&ensp; Twitter</a></li>
+                <li><a href="#"><img src="youtube_4494485.png" alt="youtube">&ensp; Youtube</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</html>
